@@ -16,5 +16,13 @@ def azar():
     rm=dic_pal()[i]
     return rm
 
+# EN BASE A LA PALBRA ANTERIOR IMPRIMIMOS LOS GUIONES
+def impre_gio():
+    df=azar()
+    for c in df:
+        print("_",end=" ")
+
+
+
 if __name__=="__main__":
-    azar()
+    impre_gio()
